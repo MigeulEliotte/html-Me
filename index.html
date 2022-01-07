@@ -1,51 +1,102 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-  <title>Who am I?</title>
-</head>
- 
+  <head>
+    <style>
+      #Whi {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif ;
+        font-style: italic;
+      }
+      #AP{
+        text-align: center;
+        font-style: italic;
+        text-shadow: 2px 2px 5px red;
+        font-size: 33px;
 
-<body style="background-color: orange;">
- <h1>WHO AM I?</h1>
+      }
+      .freetime{
+        text-align: center ;
+        font-size: 40px;
+        text-shadow: 2px 2px #ff0000;
+        background-image: url(https://i.pinimg.com/originals/df/55/97/df559761d1c1b9e3e833165283195c1b.png); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border: 10px solid rgb(105, 82, 82);
 
-  <h2>Adrian Perez</h2>
+      }
+      .rockfieri {
+        text-align: center ;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2em;
+        font-weight: bold  100;
+        text-shadow: 2px 2px #ff0000;
+        color: rgb(225, 228, 235);
+        background-image: url(https://media.wired.co.uk/photos/606da0c989f3babb1f0133fb/master/w_1600%2Cc_limit/Lava.jpg) ;
+        border: 10px solid black;
+      }
+      .zecipe{
+        text-align: center ;
+        font-family: cursive;
+        color: cadetblue;
+        font-size: 1.3em;
+        border: 10px solid burlywood;
+        background-image: url(https://betweencarpools.com/wp-content/uploads/2019/06/shutterstock_1412665145.jpg);
+      }
+     
+     
+      
 
-  <h3>What do I do with my free time?</h3>
-   <p>
-     Cause of the pandemic I spend way too much time <s>and money</s> on my computer. For the amount of time I spend looking at these screens I should probably know more than what free games are available on Steam. My goal is to create a Guy Fieri RPG. It will be called...
-   </p>
+    </style>
+    <title>Who am I?</title>
+  </head>
+  
 
- <h1>Zest City</h1>
+  <body style="background-color: orange;">
+  <h1 id=Whi>WHO AM I?</h1>
 
-  <img src="https://media.gq.com/photos/59dfc6d9d61cb80476584e18/master/pass/guy-fieiri-flame.jpg" alt="Guy Fieri" width= 500/>
+    <h2 id=AP>Adrian Perez</h2>
+<div class='freetime'>
+      <h3>What do I do with my free time?</h3>
+      <p>
+        Cause of the pandemic I spend way too much time <s>and money</s> on my computer. For the amount of time I spend looking at these screens I should probably know more than what free games are available on Steam. My goal is to create a Guy Fieri RPG. It will be called...
+      </p>
 
- <ul>
-  <li>It's about <b>DRIVE</b></li>
-  <li>It's about <b>POWER</b></li>
-  <li>We stay <b>HUNGRY</b></li>
-  <li>We <b>DEVOUR</b></li>
-  <li>Put in the <b>WORK</b></li>
-  <li>Put in the <b>HOURS</b></li>
-  <li>And take what's <b>OURS</b></li>
- </ul>
+    <h1>Zest City</h1>
 
- <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-10/12/13/enhanced/webdr06/grid-cell-8715-1444671921-10.jpg" alt="The Rock Fieri" width= 400/> 
- <br>
+    <img src="https://media.gq.com/photos/59dfc6d9d61cb80476584e18/master/pass/guy-fieiri-flame.jpg" alt="Guy Fieri" width= 500/>
+</div>
+<div class="rockfieri">
+  <ul>
+      <li>It's about <b>DRIVE</b></li>
+      <li>It's about <b>POWER</b></li>
+      <li>We stay <b>HUNGRY</b></li>
+      <li>We <b>DEVOUR</b></li>
+      <li>Put in the <b>WORK</b></li>
+      <li>Put in the <b>HOURS</b></li>
+      <li>And take what's <b>OURS</b></li>
+    </ul>
 
- <br>
-<label for="recipes">
-  What Zesty recipes do you love?
-</label>
-   <input type="text" id="recipe" name="recipe"><br><br>
-   <input type="Submit" value="Zubmit">
- 
-<p>
-  ZMASH THAT ZUBMIT TO ZEND THAT ZESTY RECIPE OR AS WE LIKE TO CALL IT, A <h2>ZECIPE!</h2> AND IF THE RECIPE IS TERRIBLE, WE CALL THAT A <h1>ZESASTER!</h1>
-</p>
-
-<p>
-  Growing up my parents would always catch me in the spice rack trying to find the zesty flavors that I could get my chubby little hands on! I was born with frosted tips and my zesty flame shirt! I was the coolest kid in town, makin the zestiest meals these boring bland people have ever had! <h2>ZEASON WITH ZEST!</h2>
-</p>
-</body>
+    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-10/12/13/enhanced/webdr06/grid-cell-8715-1444671921-10.jpg" alt="The Rock Fieri" width= 400/> 
+    <br>
+</div>
+  <br>
+ <div class="zecipe"> 
+  <label for="recipes">
+      What Zesty recipes do you love?
+    </label>
+      <input type="text" id="recipe" name="recipe"><br><br>
+      <input type="Submit" value="Zubmit">
+    
+    <div >
+      <p>
+      ZMASH THAT ZUBMIT TO ZEND THAT ZESTY RECIPE OR AS WE LIKE TO CALL IT, A <h2 id=ZECIPEE >ZECIPE!</h2> AND IF THE RECIPE IS TERRIBLE, WE CALL THAT A <h1>ZESASTER!</h1>
+    </p>
+    </div>
+    <p>
+      Growing up my parents would always catch me in the spice rack trying to find the zesty flavors that I could get my chubby little hands on! I was born with frosted tips and my zesty flame shirt! I was the coolest kid in town, makin the zestiest meals these boring bland people have ever had! <h2>ZEASON WITH ZEST!</h2>
+    </p >
+  </div>
+    </body>
 </html>
